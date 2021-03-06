@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Photo page')
+@section('title', 'Фото')
 
 @section('content')
-    <h1>Photo</h1>
+    <h1>Страница "Фото" в разработке</h1>
 @endsection

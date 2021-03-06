@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Video page')
+@section('title', 'Видео')
 
 @section('content')
-    <h1>Video</h1>
+    <h1>Страница "Видео" в разработке</h1>
 @endsection
