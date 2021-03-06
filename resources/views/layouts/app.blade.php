@@ -10,17 +10,9 @@
     <title>Акванариум - @yield('title')</title>
 </head>
 <body>
-<nav>
-    <a href="{{ route('home.index') }}">Главная</a>
-    <a href="{{ route('home.photo') }}">Фото</a>
-    <a href="{{ route('home.video') }}">Видео</a>
-    <a href="{{ route('home.excursions') }}">Экскурсии</a>
-    <a href="{{ route('home.school') }}">Школа</a>
-    <a href="{{ route('home.courses') }}">Курсы</a>
-    <a href="{{ route('home.events') }}">Мероприятия</a>
-    <a href="{{ route('home.about') }}">О&nbsp;нас</a>
-    <a href="http://аквариф.рф">Купить&nbsp;аквариум</a>
-</nav>
-<div>@yield('content')</div>
+@include('layouts.partials.nav')
+<main>
+    <div class="container">@yield('content')</div>
+</main>
 </body>
 </html>
