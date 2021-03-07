@@ -9,10 +9,11 @@
     <script src="{{mix('js/app.js')}}" defer></script>
     <title>Акванариум - @yield('title')</title>
 </head>
-<body>
+<body class="d-flex flex-column">
 @include('layouts.partials.nav')
-<main>
+<main class="flex-grow-1">
     <div class="container">@yield('content')</div>
 </main>
+@include('layouts.partials.footer')
 </body>
 </html>
